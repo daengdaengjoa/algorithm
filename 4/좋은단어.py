@@ -6,7 +6,7 @@ for i in range(n):
     stack = []
     for j in inp:
         if len(stack) == 0:
-                stack.append(j)
+            stack.append(j)
         else:
             if j == "A":
                 if stack[-1] == "B":
@@ -18,7 +18,7 @@ for i in range(n):
                     stack.append(j)
                 elif stack[-1] == "B":
                     stack.pop()
-    if len(stack)==0:
-        a+=1
+    if len(stack) == 0:
+        a += 1
 
 print(a)

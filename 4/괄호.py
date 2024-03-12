@@ -1,12 +1,12 @@
 N = int(input())
 
 for i in range(N):
-    a=input()
+    a = input()
     a1 = []
     for j in a:
-        if j == '(':
+        if j == "(":
             a1.append(j)
-        elif j == ')':
+        elif j == ")":
             if a1:
                 a1.pop()
             else:
