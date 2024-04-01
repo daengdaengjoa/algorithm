@@ -16,3 +16,5 @@ def Insertion_Sort(A):
 Insertion_Sort(nums)
 
 print(nums)
+
+nums.sort()
